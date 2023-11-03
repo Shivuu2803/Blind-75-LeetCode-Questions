@@ -8,6 +8,7 @@ public:
     while (s < e) 
     {
       int m = (s + e) / 2;
+        //find mid of the given vector
       if (nums[m] < nums[e])
         e = m;
       else
