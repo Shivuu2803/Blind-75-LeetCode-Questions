@@ -13,8 +13,8 @@ class Solution
 public:
     ListNode* reverseList(ListNode* head) 
     {
-        ListNode* curr = head;
-        ListNode* prev = head;
+        ListNode* curr = head;  //curr points to current node
+        ListNode* prev = head;  //prev points to previous node
         //jst make this two nodes curr and prev .
         while(curr!=NULL)
         {
