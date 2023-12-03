@@ -15,6 +15,7 @@ public:
     {
         ListNode* curr = head;
         ListNode* prev = head;
+        //jst make this two nodes curr and prev .
         while(curr!=NULL)
         {
             ListNode* next = curr->next;
